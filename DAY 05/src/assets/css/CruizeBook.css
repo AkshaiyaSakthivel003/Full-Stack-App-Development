@@ -1,0 +1,108 @@
+.cruize-booking-page {
+    position: relative;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+  
+  .cruize-booking-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cruize-booking-form {
+    background-color: rgba(255, 255, 255, 0.304);
+    padding: 50px;
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .cruize-booking-form  input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #005c68;
+    border-radius: 5px;
+    background-color: #e0f3f7;
+    transition: background-color 0.3s ease;
+  }
+
+  .cruize-booking-form  select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    color: #005c68;
+    border-radius: 5px;
+    background-color: #e0f3f7;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label{
+    font-weight: bolder;
+    align-items: left;
+    color: aliceblue;
+  }
+  
+  input[type='text'],
+  input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .date {
+    padding: 8px;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .date-picker-container {
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #009999;
+  }
+  
+.date-picker-container {
+  display: flex;
+  margin-top: 20px;
+}
+
