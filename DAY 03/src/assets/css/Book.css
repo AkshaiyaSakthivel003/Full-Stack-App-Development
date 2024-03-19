@@ -1,0 +1,163 @@
+.booking-form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .booking-form {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .booking-steps {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .step {
+    font-size: 16px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .room-guest {
+    margin-top: 10px;
+  }
+  
+  .form-group .guests {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bde9ee86;
+    color: #074c55;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .guests .lb{
+    font-size: smaller;
+  }
+
+  .guests .hd{
+    font-weight: bold;
+  }
+  
+  .guests div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .disc {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1c8f9e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .disc:hover {
+    background-color: rgb(11, 128, 144);
+  }
+  
+  
+  .booking-form-container .dropdown button {
+    background-color: #0a97aa; /* Darker color for buttons */
+    color: #ffffff; /* Text color for buttons */
+  }
+  
+  .booking-form-container .dropdown button:hover,
+  .booking-form-container .dropdown button:focus {
+    background-color: #0f7681; /* Darker color on hover/focus */
+  }
+  
+  .booking-form-container input[type="number"] {
+    background-color: #cce0e5; 
+    color: #18a5b8; /* Text color for input boxes */
+  }
+  
+  .booking-form-container input[type="number"]:hover,
+  .booking-form-container input[type="number"]:focus {
+    background-color: #c4e3eb; /* Lighter color on hover/focus */
+  }
+  
+  .booking-form-container select,
+  .booking-form-container input[type="date"] {
+    background-color: #cce0e5; /* Light blue color for date and destination input boxes */
+    color: #04454d; /* Dark blue text color */
+  }
+
+  .date button{
+    color: darkcyan;
+  }
+
+  .date input{
+    background-color: white;
+    color: darkcyan;
+  }
+  .date input:hover{
+    background-color: aliceblue;
+    color: darkcyan;
+    
+  }
+  .rdrDateDisplayWrapper input{
+    color: darkcyan;
+  }
+
+  .aar{
+    font-size:medium;
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .sel{
+    background-color: #0a97aa;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .dest{
+    background-color:#0a97aa;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .dest input{
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
