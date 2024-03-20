@@ -1,0 +1,66 @@
+/* AquaventuresPage.css */
+
+/* Style for the main container */
+.av-aquaventures-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure page takes at least full viewport height */
+}
+
+/* Style for the activity section */
+.av-activity {
+    padding: 20px;
+}
+
+/* Style for the containers containing video */
+.av-container-row {
+    display: flex;
+    justify-content: space-between; /* Ensure containers are evenly spaced */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.av-container {
+    position: relative;
+    width: calc(50% - 10px); /* Adjust width of containers */
+    padding: 20px;
+    background-color: white; /* Example background color */
+    border-radius: 5px;
+}
+
+/* Style for the heading */
+.av-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the description */
+.av-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style for the video */
+.av-activity-video {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+/* Style for the Book Now button */
+.av-book-now-btn {
+    position: absolute;
+    bottom: 20px; /* Adjust distance from bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff; /* Example button color */
+    color: #fff; /* Example text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.av-book-now-btn:hover {
+    background-color: #0056b3; /* Example button color on hover */
+}

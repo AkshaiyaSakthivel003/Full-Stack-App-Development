@@ -1,0 +1,26 @@
+/* MyProfile.css */
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    margin-bottom: 10px;
+  }
+  
+  .profile-info label {
+    font-weight: bold;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  

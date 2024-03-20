@@ -1,0 +1,68 @@
+/* CruiseDestinationsPage.css */
+
+/* General styles for the cruise destinations page */
+.cruise-destinations-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page takes up at least the full height of the viewport */
+  }
+  
+  /* Header styles */
+  .page-header {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .page-header h1 {
+    margin: 0;
+  }
+  
+  .page-header p {
+    font-size: 18px;
+  }
+  
+  /* Main content styles */
+  main {
+    flex: 1; /* Grow to fill remaining vertical space */
+    padding: 20px;
+  }
+  
+  .destination-region {
+    margin-bottom: 40px; /* Add space between sections */
+    background-color: #f8f9fa; /* Add background color */
+    padding: 20px;
+    border-radius: 8px; /* Add border radius for a more polished look */
+  }
+  
+  .destination-region h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .destination-region p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px; /* Add space between title and description */
+  }
+  
+  /* Image slider styles */
+  .image-slider {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the slider */
+  }
+  
+  .image-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  .header-video {
+    width: 100%; /* Adjust as needed */
+  }

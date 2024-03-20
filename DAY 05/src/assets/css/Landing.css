@@ -1,0 +1,350 @@
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add some margin to separate from cards */
+}
+
+.options {
+  display: flex;
+}
+
+.option {
+  padding: 5px 20px; /* Adjust padding */
+  margin-right: 20px; /* Adjust margin */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative; /* Add relative positioning */
+}
+
+.option::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Position the underline */
+  width: 100%;
+  height: 2px; /* Underline height */
+  background-color: transparent; /* Initial color */
+  transition: background-color 0.3s ease; /* Smooth transition for underline color */
+}
+
+.option.active::after {
+  background-color: #33dbe4; 
+}
+
+.option:focus {
+  box-shadow: none;
+}
+.option:nth-child(-n+3) {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; 
+  z-index: 1000; 
+  transition: background-color 0.3s ease; 
+}
+
+.navbar.scrolled {
+  background-color: white;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.l1-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem; 
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1.2rem; 
+  background-color: #33dbe4; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #0056b3; 
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  font-size: 2rem; 
+  margin-bottom: 20px;
+}
+
+.search-container {
+  background-color: #f0f0f0; 
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container input {
+  width: 150px; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.react-select-container {
+  width: 150px; 
+}
+
+input[type="text"] {
+  width: 150px; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #33dbe4;
+  color: #fff; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+button.plus-minus-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #2cacac;
+  color: #fff; 
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+.booked-date {
+  background-color: #ffcccc;
+}
+
+.scrollable-section {
+  margin-top: 50px; 
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding: 20px 0; 
+  margin-bottom: 20px;
+  
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 500px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  scroll-snap-align: start;
+}
+
+.card:first-child {
+  margin-left: 20px; 
+}
+
+.card:last-child {
+  margin-right: 0; 
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
+.diamond-symbol {
+  color: #0056b3; /* Color for the symbol */
+  font-family: 'YourStylishFont', sans-serif; /* Specify your stylish font */
+}
+
+.book-now-button {
+  background-color: #2cacac; /* Color for the book now button */
+  color: white; /* Text color for the button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.carousel img {
+  width: 50%;
+  height: auto;
+}
+
+.carousel-description {
+  margin-left: 200px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.carousel-description h4 {
+  font-family: 'Garamond', serif ;
+  font-size: 24px;
+}
+
+.carousel-description h1 {
+  font-family: 'Candara', sans-serif; /* Candara font */
+  font-size: 36px;
+}
+
+.carousel-description h2 {
+  font-family: 'Garamond', serif; /* Garamond font */
+  font-size: 18px;
+}
+
+.background-image {
+  position: relative;
+  width: 93%;
+  height: 80vh;
+  margin-top: 110px;
+  opacity: 0.7;
+}
+
+.background-image img {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: -100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 3; 
+  animation: fade-in 3s forwards;
+}
+.overlay .button1
+{
+  margin-left: -400px;
+  margin-top: 300px;
+  position: absolute;
+}
+.overlay .description
+{
+  margin-left: 140px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.l2-button {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  padding: 20px 50px; 
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px; 
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.l2-description {
+  position: absolute;
+  bottom: 40px; 
+  left: 20px; 
+  color: white;
+  font-size: 100px; 
+  text-align: left;
+  width: 200px;
+  transform: translateX(-50%);
+  top: 20px;
+}
+.description h1
+{
+  top: -70px;
+  position: absolute;
+}
+.description h4{
+  left: 45px;
+  top: -90px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+
